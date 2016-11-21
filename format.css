@@ -40,6 +40,13 @@ h1{
 	width: auto;
 	font-family: 'Montserrat', sans-serif;
 }
+h2{
+	color: white;
+	font-size: 26px;
+	text-align: center;
+	width: auto;
+	font-family: 'Montserrat', sans-serif;
+}
 p {
 		color: white;
 	font-size: 30px;
