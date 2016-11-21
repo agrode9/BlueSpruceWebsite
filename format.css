@@ -1,20 +1,52 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-image: url(back.jpg);
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+.hero {
+	background-color: #00599a;
+  	display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center 0;
+    -webkit-clip-path: polygon(0 0,100% 0,100% 75%,50% 100%,0 75%,0 0);
+    clip-path: polygon(0 0,100% 0,100% 75%,50% 100%,0 75%,0 0);
+    /*background-image: url(back.jpg);*/
+}
 
 
 
+.hero h1{
+	color: white;
+	font-size: 90px;
+	text-align: center;
+	width: auto;
+	font-family: 'Montserrat', sans-serif;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+h1{
+	color: white;
+	font-size: 70px;
+	text-align: center;
+	width: auto;
+	font-family: 'Montserrat', sans-serif;
+}
+p {
+		color: white;
+	font-size: 30px;
+	text-align: center;
+	width: auto;
+	font-family: 'Montserrat', sans-serif;
+}
 
 
 
@@ -33,6 +65,17 @@
 /*contactForm*/
 #contactForm{
 	width: 100%;
+	background-color: #00599a;
+  	display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center 0;
+-webkit-clip-path: polygon(50% 23%, 100% 0, 100% 99%, 0 100%, 0 0);
+clip-path: polygon(50% 23%, 100% 0, 100% 99%, 0 100%, 0 0);
 }
 .container{
   padding: 0;
@@ -47,6 +90,7 @@
   
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
+  margin-top: 200px;
 }
 .row{
 	width: 40%;
@@ -70,7 +114,7 @@
 	margin: 0 auto;
 }
 .row3 textarea{
-	height: 200px;
+	height: 150px;
 	width: 90%;
 	margin: 0 auto;
 	display: block;
@@ -90,21 +134,26 @@ input, textarea {
     margin-right: auto;
     margin: 10px 0 10px 0;
     padding: 10px;
-    background-color: rgba(0,0,0,0);
+    background-color: white;
+    /*background-color: rgba(0,0,0,0);*/
    /* font-family: 'Open Sans', sans-serif;*/
     font-size: 1.2em;
 }
-
-#contact-form-send:hover{
+#contact-form-send{
 	background-color: #00599a;
-  color: white;
+	color: white;
+	 border: solid white 2px;
+}
+#contact-form-send:hover{
+	background-color: white;
+  color: #00599a;
   transition: all .3s linear;
 
 }
 
 
 
-
+/*MOBILE*/
 @media (max-width: 600px){
 	.container{
   padding: 0;
@@ -119,6 +168,7 @@ input, textarea {
   
   -webkit-flex-flow: column wrap;
   justify-content: space-around;
+  margin-top: 130px;
 }
 	.row{
 	width: 90%;
