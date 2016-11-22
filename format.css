@@ -8,6 +8,32 @@ body {
     background-attachment: fixed;
     overflow-x: hidden;
 }
+/* HOVER COLOR */
+
+a svg:hover #github, a svg:hover #email-9-icon,
+a svg:hover #linkedin-circle-icon { 
+  fill: #111;
+}
+
+/* GENERAL STYLES */
+article { 
+  width: 100%; 
+  margin: 15px auto; 
+  text-align: center;
+  zoom: 2;
+}
+a { 
+  outline: none; 
+  border: 0; 
+  text-decoration: none; 
+}
+a svg #github, a svg #email-9-icon,
+a svg #linkedin-circle-icon { 
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
 .hero {
 	background-color: #00599a;
   	display: block;
