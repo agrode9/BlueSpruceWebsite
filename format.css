@@ -32,6 +32,8 @@ body {
 
 
 .hero h1{
+    /*do we want this here ornot*/
+  /*margin-top: 100px;*/
 	color: white;
 	font-size: 90px;
 	text-align: center;
@@ -189,7 +191,7 @@ clip-path: polygon(50% 23%, 100% 0, 100% 99%, 0 100%, 0 0);
 
 }
 .row2{
-	width: 40%;
+	width: 39.8%;
 	order: 2;
 	flex-basis: auto;
 	flex: 0 1 auto;
