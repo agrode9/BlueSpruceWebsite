@@ -96,6 +96,7 @@ footer a{
   height: 80%;
   display: block;
   margin: 0 auto;
+   width: auto;
 }
 
 
@@ -384,6 +385,13 @@ button{
   font-weight: bold;
   font-size: 3em;
   text-align: center;
+}
+
+.rain img{
+  height: 50%;
+  width: auto;
+  display: block;
+  margin: 0 auto;
 }
 }
 
