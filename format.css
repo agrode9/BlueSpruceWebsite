@@ -88,15 +88,27 @@ p {
 	width: auto;
 	font-family: 'Montserrat', sans-serif;
 }
+footer a{
+  color: white;
+}
 
 
 
 
+p{
+  width: 600px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 40px;
+}
 
 
-
-
-
+footer p{
+  font-size: 15px;
+  width: auto;
+}
 
 button {
     display: none;
@@ -299,6 +311,7 @@ input, textarea {
 	}
 	p{
 		font-size: 19px;
+    width: auto;
 	}
 	#contactForm h1{
 	color: white;
