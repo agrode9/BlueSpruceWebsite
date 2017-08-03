@@ -1,7 +1,7 @@
 /*-----------------------------General-----------------------------*/
 body
 {
-	background-color: #E8F1F5;
+	background-color: #F9F7F7;
 }
 h1,h2,h3,h4,h5,p,body
 {
@@ -76,6 +76,7 @@ header
 	background-color: #F9F7F7;
 	min-height: 50%;
 	height:auto;
+
 }
 /*-----------------------------end general-----------------------------*/
 /*-----------------------------Body-----------------------------*/
@@ -83,7 +84,9 @@ header
 #section1
 {
 	background-color: #E8F1F5;
-	display: block;
+   display:inline-block;
+   vertical-align: top;
+   width: 100%;
 }
 #seperatorImg1
 {
@@ -97,6 +100,9 @@ header
 #section2
 {
 	background-color: #3F72AF;
+  display:inline-block;
+  vertical-align: top;
+  width: 100%;
 }
 #section2 h2
 {
@@ -122,19 +128,8 @@ header
 }
 /*-----------------------------end body-----------------------------*/
 /*-----------------------------Contact Form-----------------------------*/
-#contactForm{
-  background-color: transparent;
-    display: block;
-    width: 70%;
-    max-width: 100%;
-    overflow-x: hidden;
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position: center 0;
-  margin: 0 auto;
-}
-.container{
+.container
+{
   padding: 0;
   margin: 0;
   list-style: none;
@@ -148,7 +143,8 @@ header
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
-.row{
+.row
+{
   width: 40%;
   order: 1;
   flex-basis: auto;
@@ -156,58 +152,59 @@ header
   align-self: auto;
 
 }
-.row2{
-  width: 39.8%;
-  order: 2;
-  flex-basis: auto;
-  flex: 0 1 auto;
-  align-self: auto;
-
-}
-.row3 {
-  width: auto;
+.row3 
+{
+  width: 40%;
   display: block;
   margin: 0 auto;
 }
-.row3 textarea{
+.row3 textarea
+{
   height: 150px;
   width: 90%;
   margin: 0 auto;
   display: block;
 }
-.row3 input{
+.row3 input
+{
   height: 50px;
   width: 90%;
   margin: 0 auto;
   display: block;
   margin-top: 20px;
 }
-input, textarea {
-  	width: 100%;
+input, textarea 
+{
+    width: 100%;
     height: 50px;
     border: solid #112D4E 2px;
     margin-left: auto;
     margin-right: auto;
     margin: 10px 0 10px 0;
     padding: 10px;
-    background-color: white;
-    /*background-color: rgba(0,0,0,0);*/
-   /* font-family: 'Open Sans', sans-serif;*/
+    background-color: #F9F7F7;
     font-size: 1.2em;
 }
-#contact-form-send{
-  	background-color: white;
-   	border: solid #112D4E 2px;
+textarea
+{
+    width: 100%;
+    height: 150px;
 }
-#contact-form-send:hover{
-  background-color: #112D4E;
-  color: white;
+#contact-form-send
+{
+  background-color: #F9F7F7;
+  color: #112D4E;
+   border: solid #112D4E 2px;
+}
+#contact-form-send:hover
+{
+  background-color:#3F72AF ;
+  color: #F9F7F7;
   transition: all .3s linear;
 
 }
-#contactForm{
-  height: 400px;
-}
+
+
 /*-----------------------------end Contact Form-----------------------------*/
 /*-----------------------------Menu Display-----------------------------*/
 #flexMenu
@@ -235,7 +232,12 @@ footer
 	width: 100%;
 	position: relative;
 	text-align: center;
-	/*figure out how to get this to stretch across*/
+  display:inline-block;
+  vertical-align: top;
+  /*figure out how to get this to stretch across*/
+
+
+  
 }
 
 footer p
