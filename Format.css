@@ -78,6 +78,8 @@ header
 	height:auto;
 
 }
+
+
 /*-----------------------------end general-----------------------------*/
 /*-----------------------------Body-----------------------------*/
 
@@ -286,6 +288,17 @@ footer h5
 {
 	color: #F9F7F7;
 }
+footer hr{
+    display: block;
+    /*margin-top: -40px;*/
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    width: 200px;
+    color: white;
+}
 /*-----------------------------end footer-----------------------------*/
 
 
@@ -325,32 +338,40 @@ footer h5
 /*-----------------------------mobile-----------------------------*/
 
 @media (max-width: 600px){
-  .aboutOption img
+    .aboutOption img
+    {
+        height: auto;
+        /*display: inline-block;*/
+        display: hidden;
+        width: 90%;
+    }
+    #seperatorImg1
+    {
+      min-height: 300px;
+       background-image: url("diningHall.JPG");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #seperatorImg2
+    {
+      min-height: 300px;
+      background-image: url("diningHall1.JPG");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  .menuOption
   {
-      height: auto;
-      /*display: inline-block;*/
-      display: hidden;
-      width: 90%;
+    color: #F9F7F7;
+    text-align: center;
+    width: 100%;
   }
-  #seperatorImg1
-{
-  min-height: 300px;
-   background-image: url("diningHall.JPG");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#seperatorImg2
-{
-  min-height: 300px;
-  background-image: url("diningHall1.JPG");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
+
 
 }
-}
+
 
