@@ -90,8 +90,8 @@ header
 }
 #seperatorImg1
 {
-	min-height: 500px;
-	background-image: url("diningHall.JPG");
+  min-height: 500px;
+	 background-image: url("diningHall.JPG");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -222,7 +222,7 @@ textarea
   display: flex;
   
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+   flex-flow: row wrap;
   justify-content: space-around;
 
 }
@@ -238,7 +238,7 @@ textarea
 }
 #flexMenu h4
 {
-  color: #112D4E;
+  color: #F9F7F7;
 }
 
 /*-----------------------------end Menu Display-----------------------------*/
@@ -249,16 +249,20 @@ textarea
 {
   color: #F9F7F7;
   text-align: center;
+  float: left;
+  width: 40%;
 }
 .aboutOption img
 {
-    width: 60%;
+    width: 50%;
     height: auto;
+    display: inline-block;
 }
 .aboutOption h4
 {
-  color: F9F7F7;
+  color: #F9F7F7;
 }
+
 /*-----------------------------end About Flex-----------------------------*/
 /*-----------------------------footer-----------------------------*/
 
