@@ -210,10 +210,12 @@ textarea
 /*-----------------------------Menu Display-----------------------------*/
 #flexMenu
 {
+/*Runs great on safari and chrome, firefox looks awful.
+*/
   padding: 0;
+  margin: 0;
   list-style: none;
   
-  display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -221,27 +223,43 @@ textarea
   
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
+  justify-content: space-around;
 
 }
-.colOne li
+.menuOption
 {
-  display: inline-block;
-  float: left;
-  clear: left;
-  padding: 0.3rem;
-}
-.colOne
-{
-  text-align: left;
   color: #F9F7F7;
+  text-align: center;
 }
-
+.menuOption img
+{
+  width: 20%;
+  height: auto;
+}
 #flexMenu h4
 {
-    color: #F9F7F7;
+  color: #112D4E;
 }
 
 /*-----------------------------end Menu Display-----------------------------*/
+/*-----------------------------About Flex-----------------------------*/
+
+/*MAKE THIS SO THAT IT IS SIDEBYSIDE FLEX*/
+.aboutOption
+{
+  color: #F9F7F7;
+  text-align: center;
+}
+.aboutOption img
+{
+    width: 60%;
+    height: auto;
+}
+.aboutOption h4
+{
+  color: F9F7F7;
+}
+/*-----------------------------end About Flex-----------------------------*/
 /*-----------------------------footer-----------------------------*/
 
 footer
