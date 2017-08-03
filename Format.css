@@ -1,1 +1,250 @@
-filler
+/*div1color = #FAFAFA */
+/*div2color = #E8F1F5 */
+/*div3color = #005691 */
+/*div4color = #004A7C */
+/*-----------------------------General-----------------------------*/
+body
+{
+	background-color: #E8F1F5;
+}
+h1,h2,h3,h4,h5,p,body
+{
+	font-family: 'Questrial', sans-serif;
+}
+
+h1,h2,h3,h4,h5
+{
+	text-align: center;
+	display: block;
+	font-family: 'Fira Sans', sans-serif;
+	color: #112D4E;
+}
+h1
+{
+	font-size: 3.998em;
+}
+h2
+{
+	font-size: 2.827em;
+}
+h3
+{
+	font-size: 1.999em;
+}
+h4
+{
+	font-size: 1.414em;
+}
+p
+{
+	font-family: 'Fira Sans', sans-serif;
+	color: #112D4E;
+	font-size: 1em;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: #112D4E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover 
+{
+    background-color: #112D4E;
+   	color: #F9F7F7;
+}
+a:hover
+{
+	transition: all .3s linear;
+}
+header
+{
+	background-color: #F9F7F7;
+	min-height: 50%;
+	height:auto;
+}
+/*-----------------------------Body-----------------------------*/
+
+#section1
+{
+	background-color: #E8F1F5;
+	display: block;
+}
+#seperatorImg1
+{
+	min-height: 500px;
+	background-image: url("diningHall.JPG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section2
+{
+	background-color: #3F72AF;
+}
+#section2 h2
+{
+	color: #F9F7F7;
+}
+#section2 p
+{
+	color: #F9F7F7;
+}
+
+#seperatorImg2
+{
+	min-height: 500px;
+	background-image: url("diningHall1.JPG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section3
+{
+	background-color: #F9F7F7;
+}
+/*-----------------------------Contact Form-----------------------------*/
+#contactForm{
+  background-color: transparent;
+    display: block;
+    width: 70%;
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center 0;
+  margin: 0 auto;
+}
+.container{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.row{
+  width: 40%;
+  order: 1;
+  flex-basis: auto;
+  flex: 0 1 auto;
+  align-self: auto;
+
+}
+.row2{
+  width: 39.8%;
+  order: 2;
+  flex-basis: auto;
+  flex: 0 1 auto;
+  align-self: auto;
+
+}
+.row3 {
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+.row3 textarea{
+  height: 150px;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+.row3 input{
+  height: 50px;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
+input, textarea {
+  	width: 100%;
+    height: 50px;
+    border: solid #112D4E 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    background-color: white;
+    /*background-color: rgba(0,0,0,0);*/
+   /* font-family: 'Open Sans', sans-serif;*/
+    font-size: 1.2em;
+}
+#contact-form-send{
+  	background-color: white;
+   	border: solid #112D4E 2px;
+}
+#contact-form-send:hover{
+  background-color: #112D4E;
+  color: white;
+  transition: all .3s linear;
+
+}
+#contactForm{
+  height: 400px;
+}
+/*-----------------------------end Contact Form-----------------------------*/
+/*-----------------------------Menu Display-----------------------------*/
+#flexMenu
+{
+	/*parent container*/
+
+}
+.colOne
+{
+
+}
+.colOne
+{
+
+}
+/*-----------------------------end Menu Display-----------------------------*/
+
+
+
+/*-----------------------------footer-----------------------------*/
+
+footer
+{
+	background-color: #112D4E;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	/*figure out how to get this to stretch across*/
+}
+
+footer p
+{
+	color: #F9F7F7;
+}
+footer h5
+{
+	color: #F9F7F7;
+}

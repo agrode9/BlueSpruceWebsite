@@ -1,33 +1,104 @@
 <html>
+	<!--********************Important********************!-->
   	<link href="Format.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
 	<link rel="shortcut icon" href="logo.png" type="image/x-icon" />  
   	<title>Blue Spruce</title> 
   	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--********************end Important********************!-->
+  	<!--********************hero and nav********************!-->
 	<header>
 		<ul>
-			<li>Home</li>
-			<li>Venue</li>
-			<li>Menu</li>
-			<li>Contact Us</li>
+			<li><a href="">Home</a></li>
+			<li><a href="">Menu</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Venue</a></li>
+			<li><a href="">Contact Us</a></li>
 		</ul>
 
-		<h1>Blue Spruce Bar</h1>		
-		<p>beginning info with some info here</p>
-
+		<h1>Blue Spruce</h1>
+		<h3>Wabeno, WI</h3>
+		<!-- <p>More here...Logo? Content...</p> -->
 	</header>
+	<!--********************end hero and nav********************!-->
 	<body>
-		<h2>Venue</h2>
+	<!--********************Venue********************!-->
+		<div id="seperatorImg1"></div>
+			<div id="section1">
+				<h2>Venue</h2>
+				<br><br><br><br><br><br><br><br><br><br><br><br>
+				<br><br><br><br>
+				<p>maybe direct to another page with pictures? Or make this about us?</p>
+			</div>
+	<!--********************End Venue********************!-->
+	<!--********************Menu********************!-->
+		<div id="section2">
+			<br>
+			<h2>Menu</h2>
+			<div id="flexMenu">
+				<div class="colOne">
+					<ul>
+						<li>food</li>
+						<li>food</li>
+						<li>food</li>
+						<li>food</li>
+						<li>food</li>
+						<li>food</li>
+						<li>food</li>
+					</ul>
+				</div>
+				<div class="colTwo">
+					<ul>
+						<li>food</li>
+						<li>food</li>
+						<li>food</li>
+						<li>food</li>
+						<li>food</li>
+						<li>food</li>
+						<li>food</li>
+					</ul>
+				</div>
+			</div>
+			<br><br><br><br><br><br><br><br>
+			<br><br><br><br>
+			<p>display menu here dynamically. Use flexbox.</p>
+		</div>
+	<!--********************end menu********************!-->
+	<!--********************Contact********************!-->
+		<div id="seperatorImg2"></div>
+		<div id="section3">
+		<br>
+	<!--********************FIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIX********************!-->
 
-		<h2>Menu</h2>
-
-		<h2>Contact Us</h2>
-
+			<h2>Contact Us</h2>
+			<h4>fun message here about why this is cool</h4>
+			<div id="contactForm">
+				<!-- change this to sals email later -->
+	        	<form action="https://formspree.io/agrode9@gmail.com" method="POST" target="_blank">
+	            	<ul class="container">
+	                	<li class="row">
+	                    	<input type="text" name="name" placeholder="Name" required>
+	                	</li>
+	                	<li class="row2">
+	                    	<input type="email" name="_replyto" placeholder="E-mail" required>
+	                	</li>
+	            	</ul>
+	                	<div class="row3">
+	                    	<textarea type="text" name="message" placeholder="Your Message" required></textarea>
+	                    	<input type="submit" value="Send" id="contact-form-send">
+		                </div>
+		        </form>
+			</div>
+	<!--********************end contact********************!-->
 	</body>
-
+	<!--********************footer********************!-->
 
 	<footer>
-		<p>contact us here with some links. Do we want the contact us in footer?</p>
+		<br><br>
+		<p>Blue Spruce</p>
+			<br><br><br><br><br><br><br><br>
 
+		<h5> &#169; 2017 Aaron Grode</h5>
 	</footer>
+	<!--********************end footer********************!-->
 </html>
