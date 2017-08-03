@@ -241,6 +241,15 @@ textarea
 {
   color: #F9F7F7;
 }
+.menuOption a 
+{
+  color: #F9F7F7;
+}
+.menuOption a:hover
+{
+  color: #C8C5BC;
+}
+
 
 /*-----------------------------end Menu Display-----------------------------*/
 /*-----------------------------About Flex-----------------------------*/
