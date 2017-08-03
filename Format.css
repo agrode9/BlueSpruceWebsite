@@ -97,6 +97,15 @@ header
     background-repeat: no-repeat;
     background-size: cover;
 }
+#seperatorImg2
+{
+  min-height: 500px;
+  background-image: url("diningHall1.JPG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #section2
 {
 	background-color: #3F72AF;
@@ -111,16 +120,6 @@ header
 #section2 p
 {
 	color: #F9F7F7;
-}
-
-#seperatorImg2
-{
-	min-height: 500px;
-	background-image: url("diningHall1.JPG");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 #section3
 {
@@ -244,7 +243,6 @@ textarea
 /*-----------------------------end Menu Display-----------------------------*/
 /*-----------------------------About Flex-----------------------------*/
 
-/*MAKE THIS SO THAT IT IS SIDEBYSIDE FLEX*/
 .aboutOption
 {
   color: #F9F7F7;
@@ -289,3 +287,70 @@ footer h5
 	color: #F9F7F7;
 }
 /*-----------------------------end footer-----------------------------*/
+
+
+
+/*-----------------------------dynamic medium-----------------------------*/
+@media(max-width: 1000px)
+{
+  .aboutOption
+  {
+    color: #F9F7F7;
+    text-align: center;
+    width: 90%;
+  }
+  .aboutOption img
+  {
+      height: auto;
+      /*display: inline-block;*/
+      display: hidden;
+  }
+
+  .row
+  {
+    width: 90%;
+    order: 1;
+    flex-basis: auto;
+    flex: 0 1 auto;
+    align-self: auto;
+
+  }
+  .row3 
+  {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+}/*-----------------------------end dynamic meduim-----------------------------*/
+/*-----------------------------mobile-----------------------------*/
+
+@media (max-width: 600px){
+  .aboutOption img
+  {
+      height: auto;
+      /*display: inline-block;*/
+      display: hidden;
+      width: 90%;
+  }
+  #seperatorImg1
+{
+  min-height: 300px;
+   background-image: url("diningHall.JPG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#seperatorImg2
+{
+  min-height: 300px;
+  background-image: url("diningHall1.JPG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+}
+}
+
