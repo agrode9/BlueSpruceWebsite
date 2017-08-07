@@ -98,6 +98,11 @@ header
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        overflow-y: scroll;
 }
 #seperatorImg2
 {
@@ -106,6 +111,10 @@ header
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 #section2
@@ -449,7 +458,7 @@ hr{
  {
     height: auto;
     color: #F9F7F7;
-    width: 80%;
+    width: 100%;
     line-height: 24px;
     text-align: center;
  }
@@ -487,7 +496,6 @@ hr{
         background-repeat: no-repeat;
         background-size: cover;
     }
-
 
 
 }
