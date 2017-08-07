@@ -503,6 +503,14 @@ hr{
 /*-----------------------------mobile-----------------------------*/
 
 @media (max-width: 600px){
+  #seperatorImg1
+  {
+    display: none;
+  }
+  #seperatorImg2
+  {
+    display: none;
+  }
     .navOption
     {
     	width: 100%;
