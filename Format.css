@@ -218,7 +218,14 @@ textarea
   transition: all .3s linear;
 
 }
-
+.contactHead
+{
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  line-height: 35px;
+}
 
 /*-----------------------------end Contact Form-----------------------------*/
 /*-----------------------------Menu Display-----------------------------*/
@@ -335,6 +342,8 @@ button
 	padding:15px 30px;
 	font-size: 1.2em;
 	font-family: 'Fira Sans', sans-serif;
+  cursor: pointer;
+
 
 }
 button:hover
@@ -342,7 +351,25 @@ button:hover
 	color: #112D4E;
 	background-color: #E8F1F5;
 	transition: all .3s linear;
+}
+#viewAll
+{
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  background: #F9F7F7;
+  border: none;
+  color: #3F72AF;
+  padding:15px 30px;
+  font-size: 1.2em;
+  font-family: 'Fira Sans', sans-serif;
   cursor: pointer;
+}
+#viewAll:hover
+{
+  color: #112D4E;
+  background-color: #E8F1F5;
+  transition: all .3s linear;
 }
 
 /*-----------------------------end Menu Display-----------------------------*/
@@ -409,6 +436,15 @@ hr{
 /*-----------------------------dynamic medium-----------------------------*/
 @media(max-width: 1300px)
 {
+  .contactHead
+{
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  line-height: 35px;
+}
+
     .navOption
   {
     margin: 0 auto;
