@@ -215,23 +215,26 @@ textarea
 /*-----------------------------Menu Display-----------------------------*/
 #navMenu
 {
-	padding: 0;
-	margin: 0;
-	list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 
-	-webkit-flex-flow: row wrap;
-	justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+  justify-content: space-around;
 }
+
 .navOption
 {
 	margin: 0 auto;
 	text-align: center;
+  width: 10%;
+
 }
 #flexMenuApp, #flexMenuSandwhich, #flexMenuSoups, #flexMenuFishFry,
 #flexMenuDinner, #flexMenuChicken, #flexMenuPizza
@@ -272,12 +275,28 @@ textarea
 	color: #F9F7F7;
 }
 
+.footerOption
+{
+  color: #F9F7F7;
+  text-align: center;
+  width: 100%;
+}
+.footerOption a
+{
+  color: #F9F7F7;
+}
+.footerOption a:hover
+{
+    transition: all .3s linear;
+    color: #C8C5BC;
+}
 /*Here, we want to have all the options across the top, and clicking on the button displayues the tab*/
 .menuOption
 {
   color: #F9F7F7;
   text-align: center;
-	max-width: 33%;
+  width: 100%;
+  line-height: 1px;
 }
 .menuOption img
 {
@@ -301,19 +320,20 @@ button
 	text-align: center;
 	margin: 0 auto;
 	display: block;
-	background: transparent;
+	background: #F9F7F7;
 	border: none;
-	color: #F9F7F7;
-	padding:15px 32px;
-	font-size: 1.3em;
+	color: #3F72AF;
+	padding:15px 30px;
+	font-size: 1.2em;
 	font-family: 'Fira Sans', sans-serif;
 
 }
 button:hover
 {
-	color: #3F72AF;
-	background-color: white;
+	color: #112D4E;
+	background-color: #E8F1F5;
 	transition: all .3s linear;
+  cursor: pointer;
 }
 
 /*-----------------------------end Menu Display-----------------------------*/
@@ -378,8 +398,25 @@ hr{
 
 
 /*-----------------------------dynamic medium-----------------------------*/
+@media(max-width: 1300px)
+{
+    .navOption
+  {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+  }
+}
 @media(max-width: 1000px)
 {
+  .navOption
+{
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+}
 	.menuOption
 	{
 	  color: #F9F7F7;

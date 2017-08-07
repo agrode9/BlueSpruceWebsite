@@ -46,76 +46,81 @@
 		<div id="section2">
 			<br>
 			<h2 id="menu">Menu</h2>
+
+<!-- PUT VIEW ALL BUTTON HERE. -->
+
       <ul id="navMenu">
-        <li class="navOption"><button id = "typeMenu" onclick="toggle_visibility('flexMenuApp', 'typeMenu')">Appetizers</button></li>
-        <li class="navOption"><button id = "typeMenu" onclick="toggle_visibility('flexMenuSandwhich', 'typeMenu')">Sandwiches</button></li>
-        <li class="navOption"><button id = "typeMenu" onclick="toggle_visibility('flexMenuSoups', 'typeMenu')">Soup</button></li>
-        <li class="navOption"><button id = "typeMenu" onclick="toggle_visibility('flexMenuFishFry', 'typeMenu')">Fish Fry</button></li>
-        <li class="navOption"><button id = "typeMenu" onclick="toggle_visibility('flexMenuDinner', 'typeMenu')">Dinner</button></li>
-        <li class="navOption"><button id = "typeMenu" onclick="toggle_visibility('flexMenuChicken', 'typeMenu')">Chicken</button></li>
-        <li class="navOption"><button id = "typeMenu" onclick="toggle_visibility('flexMenuPizza', 'typeMenu')">Pizza</button></li>
+        <li class="navOption"><button id = "typeMenu" onclick="toggle_visibility('flexMenuApp', 'typeMenu'); goToID('Appetizers');">Appetizers</button></li></a>
+        <li class="navOption"><button id = "typeMenu" onclick="toggle_visibility('flexMenuSandwhich', 'typeMenu'); goToID('Sandwiches');">Sandwiches</button></li>
+        <li class="navOption"><button id = "typeMenu" onclick="toggle_visibility('flexMenuSoups', 'typeMenu'); goToID('Soup');">Soup</button></li>
+        <li class="navOption"><button id = "typeMenu" onclick="toggle_visibility('flexMenuFishFry', 'typeMenu');goToID('Fish');">Fish Fry</button></li>
+        <li class="navOption"><button id = "typeMenu" onclick="toggle_visibility('flexMenuDinner', 'typeMenu');goToID('Dinner');">Dinner</button></li>
+        <li class="navOption"><button id = "typeMenu" onclick="toggle_visibility('flexMenuChicken', 'typeMenu');goToID('Chicken');">Chicken</button></li>
+        <li class="navOption"><button id = "typeMenu" onclick="toggle_visibility('flexMenuPizza', 'typeMenu');goToID('Pizza');">Pizza</button></li>
       </ul>
 
-			<ul id="flexMenuApp">
+		<ul id="flexMenuApp">
 			<!-- do we want to add images here? -->
-				<li class="menuOption">
-					<h4>Flappers (8) - $6.50</h4>
-					<p>Sauces - Bourbon, Ranch, BBQ, Honey Mustard, Jalapeno Ranch,
-          Southwest Ranch, Frank's Hot</p>
-				</li>
-        <li class="menuOption">
-          <h4>Brewhouse Combo Basket - $8.50</h4>
-          <p>Onion rings, cream cheese poppers, chicken strips, mozzarella
-          sticks & mushrooms</p>
-        </li>
-        <li class="menuOption">
-          <h4>Chicken Tenders - $3.75</h4>
-          <p>Extra dipping sauce - $0.50</p>
-        </li>
-				<li class="menuOption">
-					<h4>French Fries - $3.25</h4>
-				</li>
-				<li class="menuOption">
-					<h4>Zesty Fries - $3.75</h4>
-				</li>
-				<li class="menuOption">
-					<h4>Cheese Curds - $3.75</h4>
-				</li>
-        <li class="menuOption">
-          <h4>Onion Rings Curds - $3.75</h4>
-        </li>
-        <li class="menuOption">
-          <h4>Onion Scoopers - $3.75</h4>
-        </li>
-        <li class="menuOption">
-          <h4>Breaded Mushrooms - $3.75</h4>
-        </li>
-        <li class="menuOption">
-          <h4>Cheese Teezers - $4.50</h4>
-        </li>
-        <li class="menuOption">
-          <h4>Broccoli & Cheddar Poppers (6) - $4.50</h4>
-        </li>
-        <li class="menuOption">
-          <h4>Jalapeno Poppers (8) - $4.50</h4>
-        </li>
-        <li class="menuOption">
-          <h4>Golden Nuggets - $3.75</h4>
-        </li>
-        <li class="menuOption">
-          <h4>Mozzarella Sticks (5) - $4.75</h4>
-        </li>
-        <li class="menuOption">
-          <h4>Mini Tacos (15) - $5.50</h4>
-          <p>Served with salsa & sour cream</p>
-        </li>
-        <li class="menuOption">
-          <h4>Shrimp basket with fries - $7.50</h4>
-        </li>
-			</ul>
-      <hr>
+			<h3 id="Appetizers"><u>Appetizers</u></h3>
+			<li class="menuOption">
+				<h4>Flappers (8) - $6.50</h4>
+				<p>Sauces - Bourbon, Ranch, BBQ, Honey Mustard, Jalapeno Ranch,
+	          	Southwest Ranch, Frank's Hot</p>
+			</li>
+	        <li class="menuOption">
+	          <h4>Brewhouse Combo Basket - $8.50</h4>
+	          <p>Onion rings, cream cheese poppers, chicken strips, mozzarella
+	          sticks & mushrooms</p>
+	        </li>
+	        <li class="menuOption">
+	          <h4>Chicken Tenders - $3.75</h4>
+	          <p>Extra dipping sauce - $0.50</p>
+	        </li>
+			<li class="menuOption">
+				<h4>French Fries - $3.25</h4>
+			</li>
+			<li class="menuOption">
+				<h4>Zesty Fries - $3.75</h4>
+			</li>
+			<li class="menuOption">
+				<h4>Cheese Curds - $3.75</h4>
+			</li>
+	        <li class="menuOption">
+	          <h4>Onion Rings Curds - $3.75</h4>
+	        </li>
+	        <li class="menuOption">
+	          <h4>Onion Scoopers - $3.75</h4>
+	        </li>
+	        <li class="menuOption">
+	          <h4>Breaded Mushrooms - $3.75</h4>
+	        </li>
+	        <li class="menuOption">
+	          <h4>Cheese Teezers - $4.50</h4>
+	        </li>
+	        <li class="menuOption">
+	          <h4>Broccoli & Cheddar Poppers (6) - $4.50</h4>
+	        </li>
+	        <li class="menuOption">
+	          <h4>Jalapeno Poppers (8) - $4.50</h4>
+	        </li>
+	        <li class="menuOption">
+	          <h4>Golden Nuggets - $3.75</h4>
+	        </li>
+	        <li class="menuOption">
+	          <h4>Mozzarella Sticks (5) - $4.75</h4>
+	        </li>
+	        <li class="menuOption">
+	          <h4>Mini Tacos (15) - $5.50</h4>
+	          <p>Served with salsa & sour cream</p>
+	        </li>
+	        <li class="menuOption">
+	          <h4>Shrimp basket with fries - $7.50</h4>
+	        </li>
+	        <hr>
+		</ul>
 
       <ul id="flexMenuSandwhich">
+      	<li class="menuOption"><h3 id="Sandwiches"><u>Sandwiches</u></h3></li>
         <h4>Choice of American, Pepper Jack, or Swiss Cheese</h4>
 
       <!-- do we want to add images here? -->
@@ -167,11 +172,12 @@
           <h4>Philly Steak Sandwhich - $6.50</h4>
           <p>Served with onions, peppers, mushrooms & swiss cheese</p>
         </li>
+         <hr>
       </ul>
-      <hr>
 
       <ul id="flexMenuSoups">
       <!-- do we want to add images here? -->
+      <h3 id="Soup"><u>Soups</u></h3>
         <li class="menuOption">
           <h4>this is an option</h4>
           <p>here is info about that. suyre looks good</p>
@@ -188,10 +194,11 @@
           <h4>this is an option</h4>
           <p>here is info about that. suyre looks good</p>
         </li>
+         <hr>
       </ul>
-      <hr>
 
       <ul id="flexMenuFishFry">
+      	<li class="menuOption"><h3 id="Fish"><u>Fish Fry</u></h3></li>
         <h4><b>Served Fridays only 5-10 p.m.</b></h4>
 
       <!-- do we want to add images here? -->
@@ -211,11 +218,12 @@
           <h4>this is an option</h4>
           <p>here is info about that. suyre looks good</p>
         </li>
+         <hr>
       </ul>
-      <hr>
 
       <ul id="flexMenuDinner">
       <!-- do we want to add images here? -->
+      <h3 id="Dinner"><u>Dinner</u></h3>
         <li class="menuOption">
           <h4>this is an option</h4>
           <p>here is info about that. suyre looks good</p>
@@ -232,9 +240,11 @@
           <h4>this is an option</h4>
           <p>here is info about that. suyre looks good</p>
         </li>
+        <hr>
       </ul>
       <ul id="flexMenuChicken">
       <!-- do we want to add images here? -->
+      <h3 id="Chicken"><u>Buckets of Chickien</u></h3>
         <li class="menuOption">
           <h4>this is an option</h4>
           <p>here is info about that. suyre looks good</p>
@@ -251,10 +261,11 @@
           <h4>this is an option</h4>
           <p>here is info about that. suyre looks good</p>
         </li>
+        <hr>
       </ul>
-      <hr>
 
       <ul id="flexMenuPizza">
+      <h3 id="Pizza"><u>Pizza</u></h3>
       <!-- do we want to add images here? -->
         <li class="menuOption">
           <h4>this is an option</h4>
@@ -272,8 +283,8 @@
           <h4>this is an option</h4>
           <p>here is info about that. suyre looks good</p>
         </li>
+        <hr>
       </ul>
-      <hr>
 			<br><br><br><br><br><br>
 		</div>
 	<!--********************end menu********************!-->
@@ -310,16 +321,16 @@
 	<footer>
 		<br><br><br>
 		<ul id="flexMenu">
-			<li class="menuOption">
+			<li class="footerOption">
 				<p>8096 County A West</p>
 				<p>Lena, WI 54139</p>
 			</li>
-			<li class="menuOption">
+			<li class="footerOption">
 				<p>Open 7 days a week</p>
 				<p>11 a.m. to bar close</p>
 				<p><b>Kitchen</b> - 11 a.m. to 10 p.m.</p>
 			</li>
-			<li class="menuOption">
+			<li class="footerOption">
 				<p>(920) 829-5960</p>
 				 <a href="mailto:bluespruce269@centurytel.net?Subject=Questions!" target="_top"><u>email@email.com</u></a>
 			</li>
@@ -339,6 +350,10 @@
           e.style.display = 'none';
        else
           e.style.display = 'flex';
+    }
+    function goToID(id)
+    {
+   	 	document.getElementById(id).scrollIntoView();
     }
 </script>
 	<!--********************end footer********************!-->
