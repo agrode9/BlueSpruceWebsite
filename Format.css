@@ -417,12 +417,6 @@ hr{
   width: 40%;
   padding: 10px;
 }
-	.menuOption
-	{
-	  color: #F9F7F7;
-	  text-align: center;
-		max-width: 100%;
-	}
   .aboutOption
   {
     color: #F9F7F7;
@@ -451,14 +445,23 @@ hr{
     display: block;
     margin: 0 auto;
   }
+  .menuOption
+ {
+    height: auto;
+    color: #F9F7F7;
+    width: 80%;
+    line-height: 24px;
+    text-align: center;
+ }
+
 }/*-----------------------------end dynamic meduim-----------------------------*/
 /*-----------------------------mobile-----------------------------*/
 
 @media (max-width: 600px){
-.navOption
-{
-	width: 100%;
-}
+    .navOption
+    {
+    	width: 100%;
+    }
     .aboutOption img
     {
         height: auto;
@@ -484,12 +487,6 @@ hr{
         background-repeat: no-repeat;
         background-size: cover;
     }
-  .menuOption
-  {
-    color: #F9F7F7;
-    text-align: center;
-    width: 100%;
-  }
 
 
 
