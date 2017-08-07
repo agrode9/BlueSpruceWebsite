@@ -127,6 +127,10 @@ header
 {
 	background-color: #F9F7F7;
 }
+#section3 h4
+{
+	color: #112D4E;
+}
 /*-----------------------------end body-----------------------------*/
 /*-----------------------------Contact Form-----------------------------*/
 .container
@@ -227,7 +231,7 @@ textarea
   justify-content: space-around;
 
 }
-#flexMenu h3, h4
+#section2 h3, h4
 {
 	text-align: center;
 	color: #F9F7F7;
@@ -236,6 +240,7 @@ textarea
 {
   color: #F9F7F7;
   text-align: center;
+	max-width: 33%;
 }
 .menuOption img
 {
@@ -302,7 +307,7 @@ footer h5
 {
 	color: #F9F7F7;
 }
-footer hr{
+hr{
     display: block;
     /*margin-top: -40px;*/
     margin-bottom: 0.5em;
@@ -320,6 +325,12 @@ footer hr{
 /*-----------------------------dynamic medium-----------------------------*/
 @media(max-width: 1000px)
 {
+	.menuOption
+	{
+	  color: #F9F7F7;
+	  text-align: center;
+		max-width: 100%;
+	}
   .aboutOption
   {
     color: #F9F7F7;
