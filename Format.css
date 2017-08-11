@@ -78,7 +78,13 @@ header
 	height:auto;
 
 }
-
+header img
+{
+  float: right;
+  height: 40%;
+  width: auto;
+  display: inline-block;
+}
 
 /*-----------------------------end general-----------------------------*/
 /*-----------------------------Body-----------------------------*/
