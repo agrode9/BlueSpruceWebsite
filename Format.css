@@ -99,7 +99,7 @@ header img
 #seperatorImg1
 {
   min-height: 500px;
-	 background-image: url("diningHall.JPG");
+	 background-image: url("bar.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -147,6 +147,14 @@ header img
 	color: #112D4E;
 }
 /*-----------------------------end body-----------------------------*/
+/*-----------------------------map API-----------------------------*/
+
+#map {
+  height: 400px;
+  width: 100%;
+ }
+ /*-----------------------------end map API-----------------------------*/
+
 /*-----------------------------Contact Form-----------------------------*/
 .container
 {

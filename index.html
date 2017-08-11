@@ -19,7 +19,7 @@
 		<!-- <img src="BlueSpruceLogo.png"> -->
 
 		<h1>Blue Spruce</h1>
-		<h3>Lena, WI</h3>
+		<h3>Spruce, WI</h3>
 		<br><br><br><br><br><br>
 		<!-- <p>More here...Logo? Content...</p> -->
 	</header>
@@ -346,6 +346,14 @@
         		</form>
 			</div>
 			<br><br><br>
+      <a href="https://www.google.com/maps/dir//8096+Co+Rd+A,+Lena,+WI+54139/@44.952537,-88.1665867,17z/data=!4m16!1m7!3m6!1s0x8802807eb5101baf:0x981c4f2c4261d876!2s8096+C
+      o+Rd+A,+Lena,+WI+54139!3b1!8m2!3d44.952537!4d-88.164398!4m7!1m0!1m5!1m1!1s0x8802807eb5101baf:0x981c4f2c4261d876!2m2!1d-88.164398!2d44.952537", target="_blank" ><div id="map"></div></a>
+      <!-- Replace the value of the key parameter with your own API key. -->
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWCXsGWmLHWCv-GL4mAwCGcz6i82LIFOo&callback=initMap">
+      </script>
+
+
 	<!--********************end contact********************!-->
 	</body>
 	<!--********************footer********************!-->
@@ -355,7 +363,7 @@
 		<ul id="flexMenu">
 			<li class="footerOption">
 				<p>8096 County A West</p>
-				<p>Lena, WI 54139</p>
+				<p>Spruce, WI 54139</p>
 			</li>
 			<li class="footerOption">
 				<p>Open 7 days a week</p>
@@ -387,6 +395,19 @@
     {
    	 	document.getElementById(id).scrollIntoView();
     }
+    function initMap() {
+    var uluru = {lat: 44.9525406, lng: -88.1662043};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 15,
+      center: uluru,
+      scrollwheel:  false
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+
+  });
+}
 </script>
 	<!--********************end footer********************!-->
 </html>
