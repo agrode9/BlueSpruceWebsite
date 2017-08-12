@@ -284,6 +284,34 @@ textarea
   justify-content: space-around;
 
 }
+.foodRight{
+	display: block;
+	float: right;
+	margin-left: 28%;
+	margin-top: 10%;
+	position: absolute;
+	height: 300px;
+	width: 300px;
+}
+.further
+{
+	margin-top: 26%;
+}
+.more
+{
+	margin-top: 19%;
+
+}
+.foodLeft
+{
+	display: block;
+	float: right;
+	padding-right: 60%;
+	margin-top: 26%;
+	position: absolute;
+	height: 300px;
+	width: 300px;
+}
 #flexMenu
 {
 	padding: 0;
@@ -398,7 +426,7 @@ button:hover
 }
 .aboutOption img
 {
-    width: 50%;
+    width: 90%;
     height: auto;
     display: inline-block;
 }
@@ -469,6 +497,10 @@ hr{
 }
 @media(max-width: 1000px)
 {
+	.foodRight, .foodLeft
+	{
+		display: none;
+	}
   .navOption
 {
   margin: 0 auto;
