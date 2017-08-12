@@ -138,6 +138,12 @@ header img
 {
 	color: #F9F7F7;
 }
+#section2 a
+{
+	text-align: center;
+	color: #F9F7F7;
+	display: block;
+}
 #section3
 {
 	background-color: #F9F7F7;
@@ -263,7 +269,7 @@ textarea
 {
 	margin: 0 auto;
 	text-align: center;
-  width: 10%;
+  /*width: 10%;*/
 
 }
 #flexMenuApp, #flexMenuSandwhich, #flexMenuSoups, #flexMenuFishFry,
@@ -385,10 +391,27 @@ button
 	font-size: 1.2em;
 	font-family: 'Fira Sans', sans-serif;
   cursor: pointer;
-
-
 }
 button:hover
+{
+	color: #112D4E;
+	background-color: #E8F1F5;
+	transition: all .3s linear;
+}
+#typeMenuSpecial
+{
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	background: #112D4E;
+	border: none;
+	color: #E8F1F5;
+	padding:15px 30px;
+	font-size: 1.2em;
+	font-family: 'Fira Sans', sans-serif;
+	cursor: pointer;
+}
+#typeMenuSpecial:hover
 {
 	color: #112D4E;
 	background-color: #E8F1F5;
@@ -560,6 +583,7 @@ hr{
     .navOption
     {
     	width: 100%;
+			margin: -6px;
     }
     .aboutOption img
     {
@@ -568,24 +592,13 @@ hr{
         display: hidden;
         width: 90%;
     }
-    #seperatorImg1
-    {
-      min-height: 300px;
-       background-image: url("diningHall.JPG");
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #seperatorImg2
-    {
-      min-height: 300px;
-      background-image: url("diningHall1.JPG");
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
+		.menuOption h4, p
+		{
+			margin: 10px;
+		}
+		.menuOption
+		{
+			width: 90%;
+		}
 
 }
