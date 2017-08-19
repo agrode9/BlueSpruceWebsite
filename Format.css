@@ -98,7 +98,32 @@ header img
 
 /*-----------------------------end general-----------------------------*/
 /*-----------------------------Body-----------------------------*/
-
+.collage
+{
+	background-color: #112D4E;
+	display:inline-block;
+	vertical-align: top;
+	width: 100%;
+}
+#collageHead
+{
+	color: white;
+}
+.pic
+{
+	width: 20%;
+	height: auto;
+	padding: 15px;
+	width: 280px;
+	height: 230px;
+	line-height: 150px;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+}
+.pic img{
+	height: 100%;
+}
 #section1
 {
 	background-color: #E8F1F5;
@@ -109,7 +134,7 @@ header img
 #seperatorImg1
 {
   min-height: 500px;
-	 background-image: url("bar.jpg");
+	 background-image: url("cover1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -509,6 +534,13 @@ hr{
 
 
 /*-----------------------------dynamic medium-----------------------------*/
+@media(max-width: 1500px)
+{
+	.aboutOption
+	{
+		width: 70%;
+	}
+}
 @media(max-width: 1300px)
 {
   .contactHead
@@ -584,7 +616,7 @@ hr{
     line-height: 24px;
     text-align: center;
  }
-  
+
 
 }/*-----------------------------end dynamic meduim-----------------------------*/
 /*-----------------------------mobile-----------------------------*/
@@ -619,4 +651,20 @@ hr{
 			width: 90%;
 		}
 
+		.mobileOption
+		{
+			display: none;
+		}
+		.pic
+		{
+			width: 20%;
+			height: auto;
+			padding: 15px;
+			width: 200px;
+			height: 150px;
+			line-height: 150px;
+			font-weight: bold;
+			font-size: 3em;
+			text-align: center;
+		}
 }
