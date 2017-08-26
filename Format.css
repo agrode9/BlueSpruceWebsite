@@ -84,10 +84,10 @@ header a
   display: block;
   color: #112D4E;
 }
-header a:hover
+/*header a:hover
 {
   color: #3F72AF;
-}
+}*/
 header img
 {
   float: right;
@@ -538,7 +538,7 @@ hr{
 {
 	.aboutOption
 	{
-		width: 70%;
+		width: 45%;
 	}
 }
 @media(max-width: 1300px)
