@@ -504,6 +504,21 @@ button:hover
 {
   line-height: 20px;
 }
+
+.nice
+{
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+.portrait
+{
+	padding: 30px;
+	width: 400px;
+	display: block;
+	margin:0 auto;
+}
 /*-----------------------------end About Flex-----------------------------*/
 /*-----------------------------footer-----------------------------*/
 
@@ -630,6 +645,20 @@ hr{
 /*-----------------------------mobile-----------------------------*/
 
 @media (max-width: 600px){
+	.portrait
+	{
+		padding: 30px;
+		width: 200px;
+		display: block;
+		margin:0 auto;
+	}
+	.nice
+	{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+	}
   #seperatorImg1
   {
     display: none;
