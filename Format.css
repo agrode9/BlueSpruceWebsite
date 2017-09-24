@@ -144,6 +144,10 @@ header img
     -o-background-size: cover;
     background-size: cover;
         overflow-y: scroll;
+           display:block;
+   vertical-align: top;
+   width: 100%;
+   overflow: hidden;
 }
 #seperatorImg2
 {
@@ -157,6 +161,10 @@ header img
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+       display:block;
+   vertical-align: top;
+   width: 100%;
+   overflow: hidden;
 }
 #section2
 {
