@@ -149,6 +149,14 @@ header img
    width: 100%;
    overflow: hidden;
 }
+html {
+    overflow-y: hidden;
+}
+body {           
+height:100%;
+overflow: scroll;
+}
+
 #seperatorImg2
 {
   min-height: 500px;
