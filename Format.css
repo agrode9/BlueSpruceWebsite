@@ -681,6 +681,7 @@ footer
 footer p
 {
 	color: #F9F7F7;
+	text-align: center;
 }
 footer h5
 {
@@ -697,6 +698,74 @@ hr{
     width: 200px;
     color: white;
 }
+
+.footerwrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
+ 		align-items: center;
+		max-width: 50%;
+}
+.footerInfo{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	max-width: 50%;
+	margin: 0 auto;
+	flex-basis: 50%;
+max-width: 50%;
+text-align: left;
+-webkit-box-flex: 1;
+flex: 1 0 33.333%;
+}
+.footerIMG
+{
+		flex-basis: 50%;
+    max-width: 50%;
+    text-align: right;
+		padding-top: 2rem;
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -ms-flex-wrap: wrap;
+	  flex-wrap: wrap;
+	  -ms-flex-pack: distribute;
+	  justify-content: space-around;
+   	max-width: 50%;
+   	margin: 0 auto;
+}
+footer a img{
+	padding-right: 15px;
+}
+/*----------------------media changes---------------------- */
+.white{
+	color: white;
+}
+footer p{
+	text-align: center;
+	font-size: .9rem;
+	font-weight: lighter;
+}
+footer a {
+	font-size: .9rem;
+	font-family: 'Oxygen', sans-serif;
+	color:White;
+	text-decoration: underline;
+	padding: 0;
+}
+footer h4{
+	color: white;
+	font-size: .7rem;
+}
 /*-----------------------------end footer-----------------------------*/
 
 
@@ -711,11 +780,16 @@ hr{
 }
 @media(max-width:900px)
 {
+	.footerwrap{
+		display: block;
+		max-width: 100%;
+	}
 	.imageGrid {
 		display: grid;
 		grid-template-columns: 50% 50%;
 		justify-content: center;
 	}
+
 	.first{
 		grid-column: 1;
 		grid-row: 1;
