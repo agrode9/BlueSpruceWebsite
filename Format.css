@@ -1,3 +1,90 @@
+/*************************************************work displays*************************************************/
+.flexPics
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+		padding-bottom: 20px;
+}
+
+@supports (display: grid) {
+	.flexPics {
+		display: grid;
+		padding: 0;
+		margin: 0;
+		grid-template-columns: 30% 30%;
+		justify-content: center;
+		padding-bottom: 20px;
+	}
+}
+.project
+{
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	overflow: hidden;
+}
+.project img
+{
+	width: 90%;
+	justify-content: center;
+}
+.flex h3{
+	color: white;
+	position: absolute;
+	z-index: 1000000;
+	margin: 0 auto;
+	font-size: 2em;
+	font-family: 'Oxygen', sans-serif;
+	float: left;
+	padding-left: 20px;
+	padding-top: 20%;
+	text-shadow: 5px 2px 8px black;
+}
+.white{
+	color: white;
+}
+.one{
+	grid-column: 1;
+	grid-row: 1;
+}
+.two{
+	grid-column: 2;
+	grid-row: 1;
+}
+
+
+
+
+
+
+a.button1
+{
+	background-color: white;
+	border: none;
+	color: #112D4E;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin: 0 auto;
+	transition: 0.3s;
+	cursor: pointer;
+	-webkit-transition:0.3s all ease;
+ 	transition:0.3s ease all;
+	font-size: 1.414em;
+	max-width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+a.button1:hover{
+	background-color: #112D4E;
+	color: #F9F7F7;
+}
 /*-----------------------------General-----------------------------*/
 body
 {
@@ -193,7 +280,6 @@ overflow: scroll;
 #section2 a
 {
 	text-align: center;
-	color: #F9F7F7;
 	display: block;
 }
 #section3
