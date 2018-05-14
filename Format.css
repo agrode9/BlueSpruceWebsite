@@ -2,6 +2,7 @@
 body
 {
 	background-color: #F9F7F7;
+	margin: 0;
 }
 h1,h2,h3,h4,h5,p,body, button
 {
@@ -152,7 +153,7 @@ header img
 html {
     overflow-y: hidden;
 }
-body {           
+body {
 height:100%;
 overflow: scroll;
 }
@@ -228,6 +229,54 @@ overflow: scroll;
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
+/*----------------------Grid---------------------- */
+.imageGrid {
+  display: flex;
+}
+@supports (display: grid) {
+	.imageGrid {
+		display: grid;
+		grid-template-columns: 30%  30%  30%;
+		justify-content: center;
+	}
+}
+.box {
+  padding: 10px;
+	flex-basis: 25%;
+}
+.first img, .second img, .third img, .fourth img, .fifth img, .sixth img{
+	width: 100%;
+	display: flex;
+  align-items: center;
+  justify-content: center
+}
+.first{
+	grid-column: 1;
+	grid-row: 1;
+}
+.second{
+	grid-column: 2 ;
+	grid-row: 1;
+}
+.third{
+	grid-column: 1 ;
+	grid-row: 2 ;
+}
+.fourth{
+	grid-column: 2 ;
+	grid-row: 2 ;
+}
+.fifth{
+	grid-column: 3 ;
+	grid-row: 1 ;
+}
+.sixth{
+	grid-column: 3 ;
+	grid-row: 2 ;
+}
+
+
+
 .row
 {
   width: 40%;
@@ -570,6 +619,38 @@ hr{
 	.aboutOption
 	{
 		width: 45%;
+	}
+}
+@media(max-width:900px)
+{
+	.imageGrid {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		justify-content: center;
+	}
+	.first{
+		grid-column: 1;
+		grid-row: 1;
+	}
+	.second{
+		grid-column: 2 ;
+		grid-row: 1;
+	}
+	.third{
+		grid-column: 1 / span 2;
+		grid-row: 2 ;
+	}
+	.fourth{
+		grid-column: 1 ;
+		grid-row: 3 ;
+	}
+	.fifth{
+		grid-column: 2 ;
+		grid-row: 3 ;
+	}
+	.sixth{
+		grid-column: 1 / span 2 ;
+		grid-row: 4 ;
 	}
 }
 @media(max-width: 1300px)
