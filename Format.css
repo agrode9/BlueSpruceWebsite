@@ -10,7 +10,6 @@
 	display: flex;
 		padding-bottom: 20px;
 }
-
 @supports (display: grid) {
 	.flexPics {
 		display: grid;
@@ -271,6 +270,9 @@ overflow: scroll;
 }
 #section2 h2
 {
+	color: #112D4E;
+}
+#section2 .light{
 	color: #F9F7F7;
 }
 #section2 p
