@@ -1065,6 +1065,10 @@ footer h4{
 .elongate{
 	height: auto;
 }
+.content
+{
+	max-width: 90%;
+}
 	.textImg, .textImg1{
 grid-column: 2;
 		}
