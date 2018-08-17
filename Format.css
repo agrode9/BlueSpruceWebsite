@@ -49,6 +49,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .content
@@ -118,6 +119,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 
@@ -365,18 +367,15 @@ header img
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-        overflow-y: scroll;
            display:block;
    vertical-align: top;
    width: 100%;
    overflow: hidden;
 }
 html {
-    overflow-y: hidden;
 }
 body {
 height:100%;
-overflow: scroll;
 }
 
 #seperatorImg2
