@@ -1,3 +1,67 @@
+#c2{
+  display:inline-block;
+  vertical-align: top;
+  width: 100%;
+  background-color: #dadfe1;
+}
+
+.textGrid{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    padding-bottom: 20px;
+}
+.elongate{
+  height: 500px;
+}
+@supports (display: grid) {
+  .textGrid {
+    display: grid;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    padding-bottom: 20px;
+    height: 100%;
+  }
+}
+.text{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.textImg{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  grid-column: 2 / span 3;
+  grid-row: 1 /  4;
+  position: relative;
+  text-align: center;
+  background-image: url("old.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content
+{
+	text-align: center;
+	max-width: 75%;
+	line-height: 1.5;
+	margin: 0 auto;
+	padding-bottom: 1rem;
+  margin-top: 15%;
+}
+
+
 .aboutDisplay{
 	display: flex;
 	flex-basis: 25%;
@@ -36,7 +100,25 @@
 	grid-column: 4;
 	grid-row: 1;
 }
-
+.text1{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+.textImg1{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  grid-row: 1 /  4;
+  position: relative;
+  text-align: center;
+  background-image: url("new.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
@@ -468,8 +550,8 @@ textarea
 }
 #contact-form-send
 {
-  background-color: #F9F7F7;
-  color: #112D4E;
+  background-color: #112D4E;
+  color: #F9F7F7;
    border: solid #112D4E 2px;
 }
 #contact-form-send:hover
@@ -477,6 +559,7 @@ textarea
   background-color:#3F72AF ;
   color: #F9F7F7;
   transition: all .3s linear;
+	cursor: pointer;
 
 }
 .contactHead
@@ -923,6 +1006,25 @@ footer h4{
 		grid-column: 1 / span 2 ;
 		grid-row: 4 ;
 	}
+	.textGrid {
+	display: grid;
+	padding: 0;
+	margin: 0;
+	grid-template-columns: 95%;
+	justify-content: center;
+	padding-bottom: 20px;
+	height: 100%;
+}
+.elongate{
+	grid-column: 1;
+	grid-row: 1;
+}
+.textImg{
+	display: none;
+	}
+	.textImg1{
+		display: none;
+		}
 }
 @media(max-width: 1300px)
 {
