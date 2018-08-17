@@ -1006,25 +1006,12 @@ footer h4{
 		grid-column: 1 / span 2 ;
 		grid-row: 4 ;
 	}
-	.textGrid {
-	display: grid;
-	padding: 0;
-	margin: 0;
-	grid-template-columns: 95%;
-	justify-content: center;
-	padding-bottom: 20px;
-	height: 100%;
-}
+
 .elongate{
 	grid-column: 1;
 	grid-row: 1;
 }
-.textImg{
-	display: none;
-	}
-	.textImg1{
-		display: none;
-		}
+
 }
 @media(max-width: 1300px)
 {
@@ -1052,8 +1039,40 @@ footer h4{
     width: 70%;
   }
 }
+@media(max-width: 660px)
+{
+	.textGrid {
+	display: grid;
+	padding: 0;
+	margin: 0;
+	grid-template-columns: 95%;
+	justify-content: center;
+	padding-bottom: 20px;
+	height: 100%;
+}
+}
 @media(max-width: 1000px)
 {
+	.textGrid {
+	display: grid;
+	padding: 0;
+	margin: 0;
+	grid-template-columns: 50%, 50%;
+	justify-content: center;
+	padding-bottom: 20px;
+	height: 100%;
+}
+.elongate{
+	height: auto;
+}
+	.textImg, .textImg1{
+grid-column: 2;
+		}
+
+		.text1, .text{
+			grid-column: 1;
+			width: 100%;
+		}
 	.foodRight, .foodLeft
 	{
 		display: none;
